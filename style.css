@@ -76,7 +76,7 @@ span{
     padding: 4rem;
 }
 
-@media all and (max-width: 1480px){
+@media all and (max-width: 1430px){
     main{
         flex-direction: column-reverse;
     }
