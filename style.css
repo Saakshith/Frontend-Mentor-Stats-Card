@@ -19,7 +19,7 @@ main{
     display: flex;
     background: hsl(244, 38%, 16%);
     border-radius: 0.5rem;
-    width: 65vw;
+    width: 75vw;
 }
 
 .text{
