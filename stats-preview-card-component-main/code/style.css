@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100vh;
+    box-sizing: border-box;
+    background: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    background: hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    width: 65vw;
+}
+
+.text{
+    flex: 0.5;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-right: 8rem;
+}
+
+.text > h1{
+    font-size: clamp(1.5rem, 2.1vw, 4rem);
+}
+
+.text > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    font-size: clamp(0.7rem, 1vw, 1.5rem);
+}
+
+span{
+    color: hsl(277, 64%, 61%)
+}
+
+.stats{
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 2.5rem;
+    width: 85%;
+}
+
+.stats > .stat > p{
+    color:  hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: clamp(0.6rem, 0.8vw, 1rem);
+    font-weight: 400;
+    margin: 0;
+}
+
+.stats > .stat > h2{
+    margin-bottom: 0.5rem;
+    font-size: clamp(1rem, 1.3vw, 2rem);
+}
+
+.img{
+    flex: 0.5;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-color: #7F46A7;
+    background-blend-mode: soft-light;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 4rem;
+}
+
+@media all and (max-width: 1480px){
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .stats{
+        display: flex;
+        width: 100%;
+    }
+
+    .text{
+        text-align: center;
+        flex: 0.6;
+        padding-right: 4rem;
+    }
+
+    .img{
+        padding: 15rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-right-radius: 0rem;
+    }
+}
+
+@media all and (max-width: 875px){
+    .img{
+        padding: 10rem;
+    }
+
+    .stats{
+        flex-direction: column;
+        padding-top: 0.8rem;
+    }
+    
+    .text{
+        padding: 1.5rem;
+    }
+}
+
+@media all and (max-width: 600px){
+    .img{
+        padding: 7rem;
+    }
+}
+
+@media all and (max-width: 410px){
+    .img{
+        padding: 5rem;
+    }
+}
+
+@media all and (max-width: 295px){
+    .img{
+        padding: 3rem;
+    }
+}
