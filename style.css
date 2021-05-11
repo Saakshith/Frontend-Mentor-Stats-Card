@@ -67,7 +67,7 @@ span{
 
 .img{
     flex: 0.5;
-    background-image: url(../images/image-header-desktop.jpg);
+    background-image: url(./images/image-header-desktop.jpg);
     background-size: cover;
     background-color: #7F46A7;
     background-blend-mode: soft-light;
