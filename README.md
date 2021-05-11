@@ -10,7 +10,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./stats-preview-card-component-main/images/screenshot.jpg)
+![](https://github.com/Saakshith/Frontend-Mentor-Stats-Card/blob/main/stats-preview-card-component-main/images/screenshot.png)
 
 ### Links
 
