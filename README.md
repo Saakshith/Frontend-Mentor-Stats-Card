@@ -14,4 +14,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (frontendmentoriochallenge-stats-card.netlify.app)
+- Live Site URL: (https://frontendmentoriochallenge-stats-card.netlify.app/)
